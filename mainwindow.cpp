@@ -19,6 +19,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_goBtn_clicked()
 {
-    QString s = ui->userInput->text();
-    ui->displayLbl->setText(s);
+    QString ss = ui->userInput->text();
+    ui->displayLbl->setText(ss);
 }
